@@ -1,0 +1,35 @@
+experiment_name: toy_synthetic_learned
+use_cuda: True
+
+# DeepSurfel parameters
+patch_resolution: 2
+geometry_resolution: 32
+
+max_iterations: 10000
+scene_iterations: 10000
+
+steps_til_val: 150000
+steps_til_test: 10
+steps_til_ckpt: 10
+
+# data
+data_root: ../data_prep/data_samples
+image_resolution:  [500, 500]
+original_image_resolution:  [500, 500]
+dont_toggle_yz: True
+num_workers: 2
+batch_size: 1
+
+# logging
+overwrite_experiment: True
+logging_root_dir: ./log
+
+# pipeline parameters
+pipeline: hybrid  # + 3 channels (reserved for deterministic coloring)
+channels: 6  # 6 + 3 channels
+n_sub_pixels: 2
+
+use_closest_frame_loss: True
+use_depth: True
+use_ray_weights: True
+use_ray_directions: True

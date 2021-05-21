@@ -1,0 +1,23 @@
+experiment_name: toy_synthetic_deterministic
+use_cuda: True
+
+# DeepSurfel parameters
+patch_resolution: 2
+geometry_resolution: 32
+
+# data
+data_root: ../data_prep/data_samples
+#data_root: ../data_samples
+image_resolution:  [500, 500]
+original_image_resolution:  [500, 500]
+dont_toggle_yz: True
+num_workers: 2
+batch_size: 1
+
+# logging
+overwrite_experiment: True
+logging_root_dir: ./log
+
+# pipeline parameters
+pipeline: color
+n_sub_pixels: 2
