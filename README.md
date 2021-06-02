@@ -26,7 +26,12 @@ Contact [Marko Mihajlovic](mailto:markomih@ethz.ch) for questions or open an iss
 The prerequest is to install python packages specified in the `requirements.txt` file, which can conveniently 
 accomplished by using an [Anaconda](https://www.anaconda.com/) environment.
 ```bash
-conda env create -f environment.yaml
+# clone the repo
+git clone https://github.com/onlinereconstruction/deep_surfels.git
+cd ./deep_surfels
+
+# create environment
+conda env create -f environment.yml
 conda activate deep_surfels
 ```
 Then install the `deep_surfel` package via `pip`
