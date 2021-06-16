@@ -1,5 +1,5 @@
 # DeepSurfels: Learning Online Appearance Fusion
-[**Paper**](https://arxiv.org/pdf/2012.14240.pdf) | [**Video**](#) | [**Project Page**](https://onlinereconstruction.github.io/DeepSurfels)
+[**Paper**](https://arxiv.org/pdf/2012.14240.pdf) | [**Video**](https://www.youtube.com/watch?v=ilq_5vy4q90) | [**Project Page**](https://onlinereconstruction.github.io/DeepSurfels)
 
 <div style="text-align: center">
     <img src="media/ds_pipeline.png" alt="pipeline"/>
