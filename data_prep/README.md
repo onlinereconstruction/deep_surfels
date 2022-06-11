@@ -9,7 +9,7 @@ Several additional packages are required to a dataset from depth frames:
 * Voxel fusion: (follow the [instructions](https://github.com/markomih/voxel_fusion))
 ```bash
 mkdir external
-cd exteranl && git clone https://github.com/markomih/voxel_fusion && cd voxel_fusion
+cd external && git clone https://github.com/markomih/voxel_fusion && cd voxel_fusion
 mkdir build && cd build
 cmake ..
 make 
